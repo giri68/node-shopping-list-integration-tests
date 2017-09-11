@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Q1VFaOjsDdyv7k8MBZJ+lkq4YU2cBLkYF7pQsKud+PN+jesyNjidpyjAi+2tIauXqLxzkr1HxMaJrQTlgyH06qGOBrd+HPqEHcZo+TCxttTMsv/44b9isdsAgG8V+CrcrHIiYiriY5uPKLxw8bBmG+dFrIR9ywCYqS8fXI4jBEbAWCJIsqDlDgOLAjZX3RmDNxu3FrZ4jcrqODfBiaN1fsYAbsYtDubyKGV9r+Qn56+z6vuVCjt5ZE02ROa7TqTt4Ya0lU9OnqUHzJulcABS4LTtgMH2lphrWr6ckt7nF7RAGqImpNVrU9IViMMdss1XEAIxBQPMLoUQlPzZYWjf1MJ7YpfCeyNCgs4zGX1IZVmC/5MoSO9TZm60iMoNYkoNkY0rFCAVfraVPQSPX6YPTW1EAj7fhEt6R27hI65nw8hrB2AVQYv0XMNsJxglX+JJ+EcPvX5wCErcfRAhivMezGeiPmwWuqZj4DBRZKqnUHmhlR5FlFhW5JO8fKfmFpZsGCEniOLGq9PNtZBuD2sDkd6UF+tby75Yjvczuz2SzB51ZaWknplOuy6Azv/VnKRY7aIVKcppsL1roYpk/QfhKyDxwGr4eE/NQpx2q3+q+RMOq+HjhcaPlb80rSijzCqL0Cd63J91LGuNiry/sVSuXuo8809HdBR+dPR9qs+R22A=
+  app: pure-basin-18278
+  on:
+    repo: giri68/node-shopping-list-integration-tests
